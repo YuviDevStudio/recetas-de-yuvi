@@ -9,6 +9,7 @@ const nextConfig = {
   experimental: {
     mdxRs: true,
   },
+  future: { webpack5: true }
 }
  
 const withMDX = createMDX({
