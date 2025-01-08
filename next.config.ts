@@ -7,9 +7,10 @@ const nextConfig = {
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
   // Optionally, add any other Next.js config below
   experimental: {
+    webpackBuildWorker: true,
     mdxRs: true,
   },
-  future: { webpack5: true }
+  future: { webpack5: true },
 }
  
 const withMDX = createMDX({
