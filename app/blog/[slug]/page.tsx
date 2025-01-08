@@ -1,4 +1,3 @@
-'use server'
 import dynamic from "next/dynamic";
 
 export default async function Page({params}: {params: Promise<{ slug: string }>
